@@ -1,0 +1,2 @@
+L1 = float(input("radius:"))
+print(3.14*(2**L1))
