@@ -1,0 +1,7 @@
+while True:
+    a = float(input("Edge length of cube(cm\dm\m\km):"))
+    print("-------Edge length of cube-------")
+    print("Edge length sum:",12*a)
+    print("superficial area:",a**2*6)
+    print("solidity:",a**3)
+    print("---------------END---------------")
