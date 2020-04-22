@@ -1,0 +1,8 @@
+while True:
+    m = float(input("Number of deposits:"))
+    t = float(input("how long:"))
+    s = float(input("interest for day/month/year/decade(%):"))
+    if s >= 10:
+        print((m / 10 * s)*t)
+    else:
+        print((m / 100 * s)*t)
