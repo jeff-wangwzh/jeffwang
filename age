@@ -1,0 +1,7 @@
+UIA = int(input("age"))
+if UIA == 50:
+   print("yes")
+elif UIA >50:
+   print('biger')
+elif UIA <50:
+   print("smaller")
