@@ -1,0 +1,9 @@
+from fractions import Fraction
+while True:
+    L1 = int(input("Molecular1:"))
+    L2 = int(input("Denominator1"))
+    B1 = int(input("Molecular2:"))
+    B2 = int(input("Denominator2"))
+    f = Fraction(L1, L2)
+    E = Fraction(B1, B2)
+    print("",f + E)
