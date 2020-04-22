@@ -1,0 +1,6 @@
+from fractions import Fraction
+while True:
+    L1 = int(input("%:"))
+    L2 = int(input("num:"))
+    f = Fraction(L1, 100)
+    print(f * L2)
